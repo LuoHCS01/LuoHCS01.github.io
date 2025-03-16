@@ -6,7 +6,7 @@ permalink: /publication/2310.00644
 excerpt: ''
 date: 2023-10-01
 venue: 'Cryptology ePrint Archive'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
+slidesurl: 
 paperurl: 'https://arxiv.org/pdf/2310.00644'
 citation: 'Chen Y, Hu Z, Liu Q, et al. LWE with Quantum Amplitudes: Algorithm, Hardness, and Oblivious Sampling[J]. Cryptology ePrint Archive, 2023.'
 ---
