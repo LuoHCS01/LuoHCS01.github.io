@@ -11,7 +11,7 @@ paperurl: 'https://arxiv.org/pdf/2310.00644'
 citation: 'Chen Y, Hu Z, Liu Q, et al. LWE with Quantum Amplitudes: Algorithm, Hardness, and Oblivious Sampling[J]. Cryptology ePrint Archive, 2023.'
 ---
 
-The learning with errors problem (LWE) is one of the most important building blocks for post-quantum cryptography. To better understand the quantum hardness of LWE, it is crucial to explore quantum variants of LWE. To this end, Chen, Liu, and Zhandry [Eurocrypt 2022] defined \\(\mathsf{S|LWE\rangle}\\) and \\(\mathsf{C|LWE\rangle}\\) problems by encoding the error of LWE samples into quantum amplitudes, and showed efficient quantum algorithms for a few interesting amplitudes. However, algorithms or hardness results of the most interesting amplitude, Gaussian, were not addressed before.
+The learning with errors problem (LWE) is one of the most important building blocks for post-quantum cryptography. To better understand the quantum hardness of LWE, it is crucial to explore quantum variants of LWE. To this end, Chen, Liu, and Zhandry [Eurocrypt 2022] defined \\(\mathsf{S\ket{LWE}}\\) and \\(\mathsf{C|LWE\rangle}\\) problems by encoding the error of LWE samples into quantum amplitudes, and showed efficient quantum algorithms for a few interesting amplitudes. However, algorithms or hardness results of the most interesting amplitude, Gaussian, were not addressed before.
 
 In this paper, we show new algorithms, hardness results and applications for \\(\mathsf{S|LWE\rangle}\\) and \\(\mathsf{S|LWE\rangle}\\) with real Gaussian, Gaussian with linear or quadratic phase terms, and other related amplitudes. Let \\(n\\) be the dimension, \\(q\\) be the modulus of LWE samples. Our main results are
 
