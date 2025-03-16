@@ -2,7 +2,7 @@
 title: "LWE with Quantum Amplitudes: Algorithm, Hardness, and Oblivious Sampling"
 collection: publications
 category: preprint
-permalink: /publication/2310.00644
+permalink: /publication/2023-10-01-LWE-with-Quantum-Amplitudes
 excerpt: ''
 date: 2023-10-01
 venue: 'Cryptology ePrint Archive'
