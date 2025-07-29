@@ -6,8 +6,6 @@ title: "Publications"
 
 ### Conferences
 
-
-
 #### LWE with Quantum Amplitudes: Algorithm, Hardness, and Oblivious Sampling
 
 &emsp;By Yilei Chen, Zihan Hu, Qipeng Liu, **Han Luo**, Yaxin Tu<br>

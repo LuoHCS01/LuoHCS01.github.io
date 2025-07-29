@@ -1,0 +1,29 @@
+---
+title: "About Me"
+image: figs/photo.png
+about:
+  id: hero-heading
+  template: jolla
+  image-width: 12em
+  image-shape: round
+  links:
+    - icon: mailbox
+      text: luohcs@gmail.com
+      href: mailto:luohcs@gmail.com
+    - icon: github
+      href: https://github.com/luohcs01
+    - icon: google scholar
+      href: https://scholar.google.com/citations?user=lJaciXIAAAAJ&hl=zh-CN&oi=sra
+---
+
+::: {#hero-heading}
+
+I have a deep passion for classical music, and have focused on piano practice under the guidance of Professor Chun Wu, a Steinway Artist at the Central Conservatory of Music. I have performed numerous classical masterpieces on stage at Tsinghua University and gained extensive performance experience. Welcome to follow my [Bilibili channel](https://space.bilibili.com/426164965).
+
+我热爱古典音乐，并在中央音乐学院教授、施坦威艺术家吴纯老师的指导下专注于钢琴演奏的练习。我曾多次在清华登台演出，演奏过许多经典曲目，有丰富的舞台经验。欢迎关注我的[B站账号](https://space.bilibili.com/426164965)。
+
+I also enjoy composing music, feel free to check out some of my pieces on my Bilibili channel.
+
+我平时也会写点音乐作品，欢迎到我的B站账号上听听看。
+
+:::

@@ -18,10 +18,13 @@ website:
         href: pubs/pubs-all.qmd
 
       - text: "CV"
-        # href: CV.pdf
+        href: Resume_en.pdf
+      
+      - text: "中文"
+        href: Resume_cn.pdf
 
       - text: "About me"
-        # href: about_me.qmd
+        href: about_me.qmd
 
 format:
   html:
