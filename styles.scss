@@ -1,0 +1,36 @@
+/*-- scss:colors --*/
+$theme-white: #FFFFFF;
+$theme-lightblue: #87CEFA;
+$theme-blue: #6495ED;
+$theme-darkblue: #191970;
+
+$body-bg: $theme-white;
+$body-color: $theme-darkblue;
+$link-color: $theme-blue;
+
+/*-- scss:fonts --*/
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Lato&family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+$font-family-sans-serif: 'Lato', sans-serif;
+$font-pt: 'PT Serif', sans-serif;
+
+$font-size-root: 18px;
+
+/*-- scss:rules --*/
+h1 {
+  color: $theme-lightblue;
+  font-family: $font-pt;
+  font-size: 40px;
+}
+
+h3 {
+  color: $theme-blue;
+  font-family: $font-pt;
+  margin-bottom: 0.5em;
+}
+
+h4, h5 {
+  color: $theme-darkblue;
+  margin-bottom: 0.5em;
+}

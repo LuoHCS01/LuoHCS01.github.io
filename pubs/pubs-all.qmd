@@ -1,0 +1,19 @@
+---
+title: "Publications"
+---
+
+---
+
+### Conferences
+
+#### LWE with Quantum Amplitudes: Algorithm, Hardness, and Oblivious Sampling
+
+&emsp;By Yilei Chen, Zihan Hu, Qipeng Liu, **Han Luo**, Yaxin Tu<br>
+&emsp;In [CRYPTO 2025](https://crypto.iacr.org/2025/) | [Abstract](pub-202310-lwe.qmd) | [PDF](https://arxiv.org/pdf/2310.00644) | [Arxiv](https://arxiv.org/abs/2310.00644)
+
+### Preprint
+
+#### AICrypto: A Comprehensive Benchmark For Evaluating Cryptography Capabilities of Large Language Models
+
+&emsp;By \*Yu Wang, \*Yijian Liu, \*Liheng Ji, **\*Han Luo**, \*Wenjie Li, Xiaofei Zhou, Chiyun Feng, Puji Wang, Yuhan Cao, Geyuan Zhang, Xiaojian Li, Rongwu Xu, Yilei Chen, Tianxing He<br>
+&emsp;In submission | [Abstract](pub-202507-aicrypto.qmd) | [PDF](https://arxiv.org/pdf/2507.09580) | [Arxiv](https://arxiv.org/abs/2507.09580) | [Webpage](https://aicryptobench.github.io/)

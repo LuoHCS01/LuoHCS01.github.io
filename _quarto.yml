@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: docs
+  
+website:
+  page-navigation: true
+  title: "Luo, Han"
+  favicon: favicon.png
+  site-url: https://luohcs01.github.io
+  repo-url: https://github.com/LuoHCS01/LuoHCS01.github.io
+  repo-actions: [edit]
+
+  navbar: 
+    background: "#87CEFA"
+    search: false
+    right: 
+      - text: "Home"
+        href: index.qmd
+
+      - text: "Publications"
+        href: pubs/pubs-all.qmd
+
+      - text: "CV"
+        href: Resume_en.pdf
+
+      - text: "About me"
+        href: about_me.qmd
+
+format:
+  html:
+    theme: styles.scss
