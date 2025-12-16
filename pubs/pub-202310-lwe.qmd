@@ -7,7 +7,7 @@ title: "Publications"
 #### LWE with Quantum Amplitudes: Algorithm, Hardness, and Oblivious Sampling
 
 &emsp;By Yilei Chen, Zihan Hu, Qipeng Liu, **Han Luo**, Yaxin Tu<br>
-&emsp;In [CRYPTO 2025](https://crypto.iacr.org/2025/) | [Back](pubs-all.qmd) | [PDF](https://arxiv.org/pdf/2310.00644) | [Arxiv](https://arxiv.org/abs/2310.00644)
+&emsp;In [CRYPTO 2025](https://crypto.iacr.org/2025/) | [Back](pubs-all.qmd) | [PDF](https://arxiv.org/pdf/2310.00644) | [Arxiv](https://arxiv.org/abs/2310.00644) | [Talk](https://www.youtube.com/watch?v=WJj6yY5h7gw)
 
 ##### Abstract
 
