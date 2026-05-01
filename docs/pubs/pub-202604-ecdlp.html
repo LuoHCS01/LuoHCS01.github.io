@@ -70,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -94,7 +123,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../pubs/pubs-all.html" aria-current="page"> 
+    <a class="nav-link" href="../pubs/pubs-all.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
@@ -140,22 +169,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 <hr>
-<section id="conferences" class="level3">
-<h3 class="anchored" data-anchor-id="conferences">Conferences</h3>
-<section id="aicrypto-a-comprehensive-benchmark-for-evaluating-cryptography-capabilities-of-large-language-models" class="level4">
-<h4 class="anchored" data-anchor-id="aicrypto-a-comprehensive-benchmark-for-evaluating-cryptography-capabilities-of-large-language-models">AICrypto: A Comprehensive Benchmark For Evaluating Cryptography Capabilities of Large Language Models</h4>
-<p> By *Yu Wang, *Yijian Liu, *Liheng Ji, <strong>*Han Luo</strong>, *Wenjie Li, Xiaofei Zhou, Chiyun Feng, Puji Wang, Yuhan Cao, Geyuan Zhang, Xiaojian Li, Rongwu Xu, Yilei Chen, Tianxing He<br>  In <a href="https://icml.cc/Conferences/2026">ICML 2026</a> | <a href="../pubs/pub-202507-aicrypto.html">Abstract</a> | <a href="https://arxiv.org/pdf/2507.09580">PDF</a> | <a href="https://arxiv.org/abs/2507.09580">Arxiv</a> | <a href="https://aicryptobench.github.io/">Webpage</a></p>
-</section>
-<section id="lwe-with-quantum-amplitudes-algorithm-hardness-and-oblivious-sampling" class="level4">
-<h4 class="anchored" data-anchor-id="lwe-with-quantum-amplitudes-algorithm-hardness-and-oblivious-sampling">LWE with Quantum Amplitudes: Algorithm, Hardness, and Oblivious Sampling</h4>
-<p> By Yilei Chen, Zihan Hu, Qipeng Liu, <strong>Han Luo</strong>, Yaxin Tu<br>  In <a href="https://crypto.iacr.org/2025/">CRYPTO 2025</a> | <a href="../pubs/pub-202310-lwe.html">Abstract</a> | <a href="https://arxiv.org/pdf/2310.00644">PDF</a> | <a href="https://arxiv.org/abs/2310.00644">Arxiv</a> | <a href="https://www.youtube.com/watch?v=WJj6yY5h7gw">Talk</a></p>
-</section>
-</section>
-<section id="preprint" class="level3">
-<h3 class="anchored" data-anchor-id="preprint">Preprint</h3>
 <section id="space-efficient-quantum-algorithm-for-elliptic-curve-discrete-logarithms-with-resource-estimation" class="level4">
 <h4 class="anchored" data-anchor-id="space-efficient-quantum-algorithm-for-elliptic-curve-discrete-logarithms-with-resource-estimation">Space-Efficient Quantum Algorithm for Elliptic Curve Discrete Logarithms with Resource Estimation</h4>
-<p> By <strong>*Han Luo</strong>, *Ziyi Yang, Ziruo Wang, Yuexin Su, Tongyang Li <br>  In submission | <a href="../pubs/pub-202604-ecdlp.html">Abstract</a> | <a href="https://arxiv.org/pdf/2604.02311">PDF</a> | <a href="https://arxiv.org/abs/2604.02311">Arxiv</a></p>
+<p> By <strong>*Han Luo</strong>, *Ziyi Yang, Ziruo Wang, Yuexin Su, Tongyang Li <br>  In submission | <a href="../pubs/pubs-all.html">Back</a> | <a href="https://arxiv.org/pdf/2604.02311">PDF</a> | <a href="https://arxiv.org/abs/2604.02311">Arxiv</a></p>
+<section id="abstract" class="level5">
+<h5 class="anchored" data-anchor-id="abstract">Abstract</h5>
+<p>Solving the Elliptic Curve Discrete Logarithm Problem (ECDLP) is critical for evaluating the quantum security of widely deployed elliptic-curve cryptosystems. Consequently, minimizing the number of logical qubits required to execute this algorithm is a key object. In implementations of Shor’s algorithm, the space complexity is largely dictated by the modular inversion operation during point addition. Starting from the extended Euclidean algorithm (EEA), we refine the register-sharing method of Proos and Zalka and propose a space-efficient reversible modular inversion algorithm. We use length registers together with location-controlled arithmetic to store the intermediate variables in a compact form throughout the computation. We then optimize the stepwise update rules and give concrete circuit constructions for the resulting controlled arithmetic components. This leads to a modular inversion circuit that uses <span class="math inline">\(3n + 4\lfloor \log_2 n \rfloor + O(1)\)</span> logical qubits and <span class="math inline">\(204n^2\log_2 n + O(n^2)\)</span> Toffoli gates. By inserting this modular inversion component into the controlled affine point-addition circuit, we obtain a space-efficient algorithm for the ECDLP with <span class="math inline">\(5n + 4\lfloor \log_2 n \rfloor + O(1)\)</span> qubits and <span class="math inline">\(O(n^3)\)</span> Toffoli gates. In particular, for a 256-bit prime-field curve, our estimate reduces the logical-qubit count to 1333, compared with 2124 in the previous low-width implementation of Häner et al.</p>
 
 
 </section>
@@ -567,4 +586,4 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/LuoHCS01/LuoHCS01.github.io/edit/main/pubs/pubs-all.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/LuoHCS01/LuoHCS01.github.io/edit/main/pubs/pub-202604-ecdlp.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>

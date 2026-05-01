@@ -6,6 +6,12 @@ title: "Publications"
 
 ### Conferences
 
+#### AICrypto: A Comprehensive Benchmark For Evaluating Cryptography Capabilities of Large Language Models
+
+&emsp;By \*Yu Wang, \*Yijian Liu, \*Liheng Ji, **\*Han Luo**, \*Wenjie Li, Xiaofei Zhou, Chiyun Feng, Puji Wang, Yuhan Cao, Geyuan Zhang, Xiaojian Li, Rongwu Xu, Yilei Chen, Tianxing He<br>
+&emsp;In [ICML 2026](https://icml.cc/Conferences/2026) | [Abstract](pub-202507-aicrypto.qmd) | [PDF](https://arxiv.org/pdf/2507.09580) | [Arxiv](https://arxiv.org/abs/2507.09580) | [Webpage](https://aicryptobench.github.io/)
+
+
 #### LWE with Quantum Amplitudes: Algorithm, Hardness, and Oblivious Sampling
 
 &emsp;By Yilei Chen, Zihan Hu, Qipeng Liu, **Han Luo**, Yaxin Tu<br>
@@ -13,7 +19,7 @@ title: "Publications"
 
 ### Preprint
 
-#### AICrypto: A Comprehensive Benchmark For Evaluating Cryptography Capabilities of Large Language Models
+#### Space-Efficient Quantum Algorithm for Elliptic Curve Discrete Logarithms with Resource Estimation
 
-&emsp;By \*Yu Wang, \*Yijian Liu, \*Liheng Ji, **\*Han Luo**, \*Wenjie Li, Xiaofei Zhou, Chiyun Feng, Puji Wang, Yuhan Cao, Geyuan Zhang, Xiaojian Li, Rongwu Xu, Yilei Chen, Tianxing He<br>
-&emsp;In submission | [Abstract](pub-202507-aicrypto.qmd) | [PDF](https://arxiv.org/pdf/2507.09580) | [Arxiv](https://arxiv.org/abs/2507.09580) | [Webpage](https://aicryptobench.github.io/)
+&emsp;By **\*Han Luo**, \*Ziyi Yang, Ziruo Wang, Yuexin Su, Tongyang Li <br>
+&emsp;In submission | [Abstract](pub-202604-ecdlp.qmd) | [PDF](https://arxiv.org/pdf/2604.02311) | [Arxiv](https://arxiv.org/abs/2604.02311)
